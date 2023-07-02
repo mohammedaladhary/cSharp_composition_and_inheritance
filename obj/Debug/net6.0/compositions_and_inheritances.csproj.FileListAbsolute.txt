@@ -1,0 +1,15 @@
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\bin\Debug\net6.0\compositions_and_inheritances.exe
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\bin\Debug\net6.0\compositions_and_inheritances.deps.json
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\bin\Debug\net6.0\compositions_and_inheritances.runtimeconfig.json
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\bin\Debug\net6.0\compositions_and_inheritances.dll
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\bin\Debug\net6.0\compositions_and_inheritances.pdb
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.csproj.AssemblyReference.cache
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.AssemblyInfoInputs.cache
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.AssemblyInfo.cs
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.csproj.CoreCompileInputs.cache
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.dll
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\refint\compositions_and_inheritances.dll
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.pdb
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\compositions_and_inheritances.genruntimeconfig.cache
+C:\Users\TRA\Desktop\code_TRA\compositions_and_inheritances\obj\Debug\net6.0\ref\compositions_and_inheritances.dll
