@@ -11,7 +11,7 @@ namespace compositions_and_inheritans
         public int CourseID { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public Teacher Teacher { get; set; }
+        public int teacherID { get; set; }
         public Student Student { get; set; }
 
         public Course(int courseID, string title, string description)
@@ -26,12 +26,12 @@ namespace compositions_and_inheritans
             Console.WriteLine("Course ID :" + CourseID);
             Console.WriteLine("Title :" + Title);
             Console.WriteLine("Description :" + Description);
-            Console.WriteLine("Teacher :" + Teacher);
+            Console.WriteLine("Teacher ID :" + teacherID);
         }
 
-        public void assignTeacher(Teacher teacher)
+        public void assignTeacher(Teacher teacherID)
         {
-            Teacher = teacher;
+            Console.WriteLine("Teacher ID: " + teacherID);
         }
         public void enrollStudent(Student student)
         {

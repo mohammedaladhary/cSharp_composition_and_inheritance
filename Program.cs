@@ -6,8 +6,8 @@ namespace compositions_and_inheritans
         static void Main(string[] args)
         {
             // Creating students, teachers, and courses
-            Student student1 = new Student("Mohammed", 22, "Taamir St", 11234, "Grade 12");
-            Student student2 = new Student("Ahmed", 19, "Muscat Seeb", 10202, "Grade 11");
+            Student student1 = new Student("Mohammed", 22, "Taamir St", 11234, "G12");
+            Student student2 = new Student("Ahmed", 19, "Muscat Seeb", 10202, "G11");
             Console.WriteLine();
 
             Teacher teacher1 = new Teacher("Salim", 25, "Barka", 21001, new List<string> { "IT", "Physics" });
@@ -26,22 +26,25 @@ namespace compositions_and_inheritans
             //teachers to courses
             course1.assignTeacher(teacher1);
             course2.assignTeacher(teacher2);
+
             // Displaying student, teacher, and course details
             Console.WriteLine("Student Details:");
             student1.StudentDetails();
             Console.WriteLine();
             student2.StudentDetails();
+            Console.WriteLine();
 
             Console.WriteLine("Teacher Details:");
             teacher1.TeacherDetails();
             Console.WriteLine();
             teacher2.TeacherDetails();
+            Console.WriteLine();
 
             Console.WriteLine("Course Details:");
-            Console.WriteLine();
             course1.CourseDetails();
             Console.WriteLine();
             course2.CourseDetails();
+            Console.WriteLine();
         }
     }
 }
