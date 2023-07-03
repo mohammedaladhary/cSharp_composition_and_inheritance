@@ -21,9 +21,9 @@ namespace compositions_and_inheritans
 
         public void PersonDetails()
         {
-            Console.WriteLine("Name: ", Name);
-            Console.WriteLine("Age: ", Age);
-            Console.WriteLine("Address: ", Address);
+            Console.WriteLine("Name: "+ Name);
+            Console.WriteLine("Age: "+ Age);
+            Console.WriteLine("Address: "+ Address);
         }
     }
     class Student : Person
@@ -64,7 +64,7 @@ namespace compositions_and_inheritans
             Console.WriteLine("Subjects: ");
             foreach (string subject in Subjects)
             {
-                Console.WriteLine(subject);
+                Console.Write(subject + ",");
             }
         }
 

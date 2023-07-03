@@ -24,24 +24,27 @@ namespace compositions_and_inheritans
             Console.WriteLine();
 
             //teachers to courses
-            course1.assignTeacher(teacher1);
-            course2.assignTeacher(teacher2);
+            course1.assignTeacher(teacher2);
+            course2.assignTeacher(teacher1);
+
             // Displaying student, teacher, and course details
             Console.WriteLine("Student Details:");
             student1.StudentDetails();
             Console.WriteLine();
             student2.StudentDetails();
-
-            Console.WriteLine("Teacher Details:");
-            teacher1.TeacherDetails();
             Console.WriteLine();
-            teacher2.TeacherDetails();
 
             Console.WriteLine("Course Details:");
-            Console.WriteLine();
             course1.CourseDetails();
             Console.WriteLine();
+            Console.WriteLine();
             course2.CourseDetails();
+            Console.WriteLine();
+
+            //Console.WriteLine("Teacher Details:");
+            //teacher1.TeacherDetails();
+            //teacher2.TeacherDetails();
+            //Console.WriteLine();
         }
     }
 }
