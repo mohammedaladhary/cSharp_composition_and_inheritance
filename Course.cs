@@ -26,13 +26,19 @@ namespace compositions_and_inheritans
             Console.WriteLine("Course ID :" + CourseID);
             Console.WriteLine("Title :" + Title);
             Console.WriteLine("Description :" + Description);
+            Console.WriteLine();
             Console.WriteLine("Assigned Teacher :");
             Teacher.TeacherDetails();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Assigned Students :");
+            Student.StudentDetails();
+            
         }
 
-        public void assignTeacher(Teacher teacher)
+        public void assignTeacher(Teacher teacherID)
         {
-            Teacher = teacher;
+            Teacher = teacherID;
         }
         public void enrollStudent(Student student)
         {
